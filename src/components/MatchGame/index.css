@@ -84,7 +84,7 @@ ul {
     height: 100vh;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
   }
   .navbar-content {
@@ -108,7 +108,7 @@ ul {
     width: 300px;
   }
   .match-img-styles {
-    width: 280px;
+    width: 295px;
     height: auto;
   }
   .images-and-tabs-and-thumbnails-container {
@@ -116,6 +116,7 @@ ul {
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
+    margin-bottom: 80px;
   }
   .images-list-container {
     display: flex;
