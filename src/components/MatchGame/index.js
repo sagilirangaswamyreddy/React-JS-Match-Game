@@ -67,7 +67,6 @@ class MatchGame extends Component {
       this.setState({imgId: randomImageDetails.id})
       this.setState(prevState => ({score: prevState.score + 1}))
     } else {
-      this.setState({score: 0})
       this.setState({isGameEnded: true})
     }
   }

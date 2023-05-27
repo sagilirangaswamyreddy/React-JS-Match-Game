@@ -80,6 +80,13 @@ ul {
 }
 
 @media (max-width: 767px) {
+  .bg-container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
   .navbar-content {
     display: flex;
     flex-direction: row;
