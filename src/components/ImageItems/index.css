@@ -1,0 +1,21 @@
+.image-item-container {
+  width: 20vw;
+  margin: 10px;
+  border-radius: 8px;
+}
+.image-item {
+  width: 100%;
+}
+.btn-img {
+  background-color: transparent;
+  border: 0px;
+  cursor: pointer;
+  outline: none;
+}
+
+@media (max-width: 767px) {
+  .image-item-container {
+    width: 20vw;
+    margin: 3px;
+  }
+}

@@ -1,0 +1,65 @@
+.scorecard-item-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/match-game-bg.png');
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.card-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/match-game-score-card-lg-bg.png');
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  height: 550px;
+  width: 400px;
+  padding: 20px;
+}
+.scorecard-image-item {
+  height: 200px;
+}
+.score-para {
+  color: #ffffff;
+  margin-top: 0px;
+  font-weight: 500;
+}
+.score-btn-img {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: #cf60c8;
+  padding: 5px 20px;
+  border-radius: 8px;
+  color: #ffffff;
+  font-weight: 500;
+  cursor: pointer;
+  outline: none;
+  border: 0px;
+}
+
+@media (max-width: 767px) {
+  .scorecard-item-container {
+    background-image: url('https://assets.ccbp.in/frontend/react-js/match-game-bg.png');
+    background-size: cover;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+  }
+  .card-container {
+    background-image: url('https://assets.ccbp.in/frontend/react-js/match-game-score-card-sm-bg.png');
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    height: 450px;
+    width: 85vw;
+    padding: 30px;
+  }
+}

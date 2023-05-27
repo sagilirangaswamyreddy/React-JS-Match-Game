@@ -1,0 +1,122 @@
+.bg-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/match-game-bg.png');
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+.navbar-content {
+  background-color: #2c0e3a;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  width: 100%;
+}
+.logo {
+  height: 30px;
+  margin-left: 50px;
+}
+.scores-container {
+  display: flex;
+  flex-direction: row;
+  margin-right: 50px;
+}
+.scores-para {
+  color: #ffffff;
+  margin: 0px;
+}
+.score-num-styles {
+  font-size: 24px;
+  color: #fec653;
+  margin: 0px;
+}
+.timer-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.timer-logo {
+  height: 25px;
+  margin-right: 5px;
+  margin-left: 20px;
+}
+.img-display-container {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  align-items: center;
+}
+.match-img-styles {
+  height: 400px;
+}
+.tabs-container {
+  max-width: 400px;
+  margin: auto;
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 0;
+}
+ul {
+  list-style-type: none;
+}
+.images-list-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 50px;
+  max-width: 90%;
+}
+.images-and-tabs-and-thumbnails-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+@media (max-width: 767px) {
+  .navbar-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+  }
+  .logo {
+    margin-left: 5px;
+  }
+  .scores-container {
+    margin-right: 5px;
+  }
+  .timer-logo {
+    margin-left: 15px;
+    margin-right: 5px;
+  }
+  .img-display-container {
+    width: 300px;
+  }
+  .match-img-styles {
+    width: 280px;
+    height: auto;
+  }
+  .images-and-tabs-and-thumbnails-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .images-list-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 0px;
+    max-width: 90%;
+  }
+}
